@@ -1,0 +1,62 @@
+body {
+    font-family: arial;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+}
+
+/* POSITION FIXED */
+#fixed {
+  border: 3px solid blue;
+  background-color: lightyellow;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+/* POSITION STICKY */
+#sticky {
+  background-color: coral;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+
+/* POSITION RELATIVE */
+#relative {
+  background-color: lightpink;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: -30px;
+  left: 50px;
+} 
+
+/* POSITION ABSOLUTE */
+#absolute {
+  background-color: lightblue;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* HOW TO POSITION TEXT OVER AN IMAGE */
+#wrapper {
+  position: relative;
+}
+
+#greeting {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
